@@ -1,0 +1,39 @@
+
+<p>{{divamiForm | json}}</p>
+
+<div class="container">
+<form [formGroup]="divamiForm">
+  <div class="card">
+    <div class="card-header">
+      <h1>divami Form</h1>
+    </div>
+    <div class="card-body">
+      <div class="form-inline">
+      <div class="form-group">
+        <input type="text" name="firstName" id="firstName" placeholder="firstName"
+        class="form-control" formControlName="firstName">
+    </div>
+    <div class="form-group">
+      <input type="text" name="lastName" id="lastName" placeholder="lastName"
+      class="form-control" formControlName="lastName">
+  </div>
+</div>
+<div class="form-inline">
+  <div class="form-group">
+    <input type="text" name="email" id="email" placeholder="email"
+    class="form-control" formControlName="email">
+</div>
+<div class="form-group ml-5">
+  <input type="text" name="phoneNo" id="phoneNo" placeholder="phoneNo"
+  class="form-control" formControlName="phoneNo">
+</div>
+</div>
+    </div>
+
+  </div>
+</form>
+</div>
+
+
+
+<h1>day 5</h1>
